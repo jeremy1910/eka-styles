@@ -5,6 +5,8 @@ const baseColor: ThemeColors = {
     black: '#000000',
     primary: '#1a73e8',
     text: '#000000',
+    cardBackground: '#FFFFFF',
+    textColor: '#000000'
 };
 
 export const colors: Record<ThemeName, ThemeColors> = {
@@ -13,5 +15,7 @@ export const colors: Record<ThemeName, ThemeColors> = {
         ...baseColor,
         primary: '#bb86fc',
         text: '#FFFFFF',
+        cardBackground: '#242424',
+        textColor: '#FFFFFF'
     },
 };
